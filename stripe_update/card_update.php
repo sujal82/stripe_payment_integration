@@ -52,7 +52,7 @@
 
 <script>
 // Create a Stripe client.
-var stripe = Stripe('pk_test_nRM2aOLSWEtWKnbEpakEkH6700rGJCx7VS');
+var stripe = Stripe('YOUR-STRIPE-PUBLIC-KEY');
 
 // Create an instance of Elements.
 var elements = stripe.elements();
