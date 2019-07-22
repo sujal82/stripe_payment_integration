@@ -1,7 +1,7 @@
 <style>
 /**
  * The CSS shown here will not be introduced in the Quickstart guide, but shows
- * how you can use CSS to style your Element's container.
+ * how you can use CSS to style your Element's container OKK.
  */
 .StripeElement {
   box-sizing: border-box;
