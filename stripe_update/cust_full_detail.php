@@ -3,7 +3,7 @@ header("Content-Type: application/json");
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://api.stripe.com/v1/customers/cus_FRtDIYob1yx60b",
+  CURLOPT_URL => "https://api.stripe.com/v1/customers/CUSTOMER-ID",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -12,7 +12,7 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => "GET",
   CURLOPT_HTTPHEADER => array(
     "Accept: */*",
-    "Authorization: Bearer sk_test_QGsJu15K4AicxOvz8xHvgpsa00Wp6TdBRi",
+    "Authorization: Bearer PASTE-STRIPE-SECRET-KEY",
     "Cache-Control: no-cache",
     "Connection: keep-alive",
     "Host: api.stripe.com",
