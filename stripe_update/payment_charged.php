@@ -8,10 +8,10 @@ curl_setopt_array($curl, array(
   CURLOPT_TIMEOUT => 30,
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => "GET",
-  CURLOPT_POSTFIELDS => "customer=cus_FRtDIYob1yx60b",
+  CURLOPT_POSTFIELDS => "customer=CUSTOMER-ID",
   CURLOPT_HTTPHEADER => array(
     "Accept: */*",
-    "Authorization: Bearer sk_test_QGsJu15K4AicxOvz8xHvgpsa00Wp6TdBRi",
+    "Authorization: Bearer PASTE-STRIPE-SECRET-KEY",
     "Cache-Control: no-cache",
     "Connection: keep-alive",
     "Content-Type: application/x-www-form-urlencoded",
